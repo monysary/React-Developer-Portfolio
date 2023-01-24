@@ -1,4 +1,4 @@
-function Navbar() {
+function Header() {
     return (
         <header className="fixed w-full z-50">
             <nav className="bg-[#3C3A40] px-2 sm:px-4 drop-shadow-lg">
@@ -36,4 +36,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Header;
