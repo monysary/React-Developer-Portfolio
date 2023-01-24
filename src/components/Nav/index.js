@@ -15,10 +15,10 @@ function Nav() {
                         <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0">About Me</a>
+                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0">Projects</a>
                     </li>
                     <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0">Projects</a>
+                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0">Resume</a>
                     </li>
                     <li>
                         <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0">Contact</a>
