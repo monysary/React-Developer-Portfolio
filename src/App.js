@@ -4,7 +4,7 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="bg-[#2C3039] h-screen">
+    <div>
       <Header>
         <Nav />
       </Header>
