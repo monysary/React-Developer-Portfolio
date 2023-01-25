@@ -1,6 +1,4 @@
-function Nav(props) {
-
-
+function Nav({ page, setCurrentPage }) {
     return (
         <>
             <button data-collapse-toggle="navbar-default" type="button"
@@ -13,8 +11,12 @@ function Nav(props) {
             </button>
             <div className="w-full md:block md:w-auto hidden" id="navbar-default">
                 <ul className="flex flex-col px-4 py-6 mt-4 bg-[#3C3A40] md:flex-row md:space-x-16 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#3C3A40]">
-                    {props.page.map((page) => (
-                        <li className="cursor-pointer text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">
+                    {page.map((page) => (
+                        <li
+                            className="cursor-pointer text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0"
+                            onClick={() => setCurrentPage(page)}
+                            key={page.name}
+                        >
                             {page.name}
                         </li>
                     ))}

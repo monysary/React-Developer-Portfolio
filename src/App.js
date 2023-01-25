@@ -19,6 +19,7 @@ function App() {
       <Header>
         <Nav 
           page={page}
+          setCurrentPage={setCurrentPage}
         />
       </Header>
       <Page 
