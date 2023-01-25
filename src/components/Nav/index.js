@@ -1,4 +1,6 @@
-function Nav() {
+function Nav(props) {
+
+
     return (
         <>
             <button data-collapse-toggle="navbar-default" type="button"
@@ -11,21 +13,11 @@ function Nav() {
             </button>
             <div className="w-full md:block md:w-auto hidden" id="navbar-default">
                 <ul className="flex flex-col px-4 py-6 mt-4 bg-[#3C3A40] md:flex-row md:space-x-16 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#3C3A40]">
-                    {/* <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0" aria-current="page">Home</a>
-                    </li> */}
-                    <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">Home</a>
-                    </li>
-                    <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">Projects</a>
-                    </li>
-                    <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">Resume</a>
-                    </li>
-                    <li>
-                        <a href="/" className="text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">Contact</a>
-                    </li>
+                    {props.page.map((page) => (
+                        <li className="cursor-pointer text-[18px] block py-2 pl-3 pr-4 text-white rounded hover:bg-[#C83649] md:hover:bg-transparent md:border-0 md:hover:text-[#C83649] md:p-0">
+                            {page.name}
+                        </li>
+                    ))}
                 </ul>
             </div>
         </>
