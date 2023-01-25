@@ -1,30 +1,37 @@
 import { useState } from "react";
+import boardBooze from '../../assets/images/board-booze.png';
 
 function Projects() {
     const [project] = useState([
         {
-            name: 'Project 1',
-            tech: 'HTML/CSS/JS',
+            name: 'Board & Booze',
+            tech: 'HTML, CSS, Foundation, JS, Server Side API',
+            image: boardBooze,
         },
         {
             name: 'Project 2',
             tech: 'HTML/CSS/JS',
+            image: '',
         },
         {
             name: 'Project 3',
             tech: 'HTML/CSS/JS',
+            image: '',
         },
         {
             name: 'Project 4',
             tech: 'HTML/CSS/JS',
+            image: '',
         },
         {
             name: 'Project 5',
             tech: 'HTML/CSS/JS',
+            image: '',
         },
         {
             name: 'Project 6',
             tech: 'HTML/CSS/JS',
+            image: '',
         },
     ])
 
@@ -36,9 +43,9 @@ function Projects() {
                     <div key={project.name}
                         className="cursor-pointer bg-[#3C3A40] drop-shadow-xl rounded-lg lg:w-[30%] sm:w-[40%] w-[80%] mb-[40px]"
                     >
-                        <img alt={project.name}/>
-                        <div className="text-center">
-                            <h3 className="text-[#E4CAA5] text-[25px] border-b-2 border-[#C83649] mx-[25%] py-[10px]">
+                        <img alt={project.name} src={project.image} />
+                        <div className="text-center px-[20px]">
+                            <h3 className="text-[#E4CAA5] text-[25px] font-medium border-b-2 border-[#9EACB7] mx-[25%] py-[10px]">
                                 {project.name}
                             </h3>
                             <p className="text-[#F5F5F5] mt-[10px] mb-[20px]">
