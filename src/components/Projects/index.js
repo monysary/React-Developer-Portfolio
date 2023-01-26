@@ -37,7 +37,7 @@ function Projects() {
         },
         {
             name: 'Drink Your Own Adventure',
-            tech: 'HTML/CSS/JS',
+            tech: 'HTML, CSS, JS',
             image: drinkAdventure,
             link: 'https://monysary.github.io/Cocktail-Decision-Tree/',
             github: 'https://github.com/monysary/Cocktail-Decision-Tree',
