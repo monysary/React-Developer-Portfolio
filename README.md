@@ -1,4 +1,4 @@
-# React Developer Portfolio
+# React Developer Portfolio (in progess)
 
 ## Description
 This portfolio website features a React built front end with multi-page rendering from a single page. The portfolio contains a homepage with a short about me paragraph, a projects pages, resume page, and contact page.
