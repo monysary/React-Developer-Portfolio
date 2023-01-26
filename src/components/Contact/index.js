@@ -10,14 +10,14 @@ function Contact() {
                         <label className="block mb-2 text-[20px] font-medium text-[#F5F5F5]">Name</label>
                         <input type="text"
                             className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#9EACB7] focus:border-[#9EACB7]"
-                            placeholder="First Last"
+                            placeholder="Your name"
                         />
                     </div>
                     <div className="pb-[20px]">
                         <label className="block mb-2 text-[20px] font-medium text-[#F5F5F5]">Email</label>
                         <input type="email"
                             className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#9EACB7] focus:border-[#9EACB7]"
-                            placeholder="email@email.com"
+                            placeholder="Your email"
                         />
                     </div>
                     <div className="pb-[20px]">
