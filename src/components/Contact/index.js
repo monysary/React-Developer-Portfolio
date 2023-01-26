@@ -28,7 +28,7 @@ function Contact() {
                         </textarea>
                     </div>
                     <button type="submit"
-                        className="text-[#F5F5F5] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-[20px] rounded-lg h-[40px] w-[140px] m-auto">
+                        className="text-[#F5F5F5] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-[20px] rounded-lg py-2 w-[140px] m-auto">
                         Submit
                     </button>
                 </form>

@@ -1,6 +1,9 @@
 import { useState } from "react";
 import boardBooze from '../../assets/images/board-booze.png';
 import bitsPleaseChat from '../../assets/images/bits-please-chat.png';
+import techBlog from '../../assets/images/the-tech-blog.png';
+import drinkAdventure from '../../assets/images/drink-your-own-adventure.png';
+import weatherDashboard from '../../assets/images/weather-dashboard.png';
 
 function Projects() {
     const [project] = useState([
@@ -19,32 +22,25 @@ function Projects() {
             github: 'https://github.com/sdanimc/shire-board-game',
         },
         {
-            name: 'Project 3',
-            tech: 'HTML/CSS/JS',
-            image: '',
-            link: '',
-            github: '',
+            name: 'The Tech Blog', //Heroku spun
+            tech: 'Handlebars, Bootstrap, Node, Express, MySQL',
+            image: techBlog,
+            link: 'https://agile-headland-11573.herokuapp.com/',
+            github: 'https://github.com/monysary/Tech-Blog',
         },
         {
-            name: 'Project 4',
-            tech: 'HTML/CSS/JS',
-            image: '',
-            link: '',
-            github: '',
+            name: 'Weather Dashboard',
+            tech: 'HTML, Bootstrap, JS, API',
+            image: weatherDashboard,
+            link: 'https://monysary.github.io/Weather-Dashboard/',
+            github: 'https://github.com/monysary/Weather-Dashboard',
         },
         {
-            name: 'Project 5',
+            name: 'Drink Your Own Adventure',
             tech: 'HTML/CSS/JS',
-            image: '',
-            link: '',
-            github: '',
-        },
-        {
-            name: 'Project 6',
-            tech: 'HTML/CSS/JS',
-            image: '',
-            link: '',
-            github: '',
+            image: drinkAdventure,
+            link: 'https://monysary.github.io/Cocktail-Decision-Tree/',
+            github: 'https://github.com/monysary/Cocktail-Decision-Tree',
         },
     ])
 
